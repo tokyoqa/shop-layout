@@ -1,0 +1,205 @@
+@media screen and (max-width: 375px) {
+    *, *::after, *::before{
+        margin: 0;
+        padding: 0;
+    }
+
+    body{
+        max-width: 375px;
+    }
+    
+    .header__nav_log, .header__nav{
+        display: none;
+    }
+
+    .header{
+        width: 375px;
+        height: 90px;
+    }
+    .header__logo{
+        font-family: 'Lato', sans-serif;
+        font-size: 22px;
+        letter-spacing: 0.028em;
+        text-transform: uppercase;
+        line-height: 29px;
+        padding: 0px 170px 0px 21px;
+        margin: -11px 0 0 0px;
+    }
+    
+    .menu{
+        display: block;
+        position: relative;
+    }
+    
+    .presentation{
+        width: 375px;
+        height: 672px;
+        background-image: url("../media/presentation.png");
+    }
+    .presentation__inner_block{
+        width: 332px;
+        height: 379px;
+        margin: 107px 21px 0 0;
+    }
+
+    .inner_block__title_header{
+        margin: 57px 0 0 36px;
+        font-size: 29px;
+    }
+    
+    .inner_block__text{
+        padding: 31px 35px 0 36px;
+        letter-spacing: 0;
+    
+    }
+}   
+
+@media screen and (max-width: 375px) {
+    .categories{
+        display: grid;
+        grid-template-areas: 
+        "bags"
+        "shoes"
+        "sunglasses"
+        "accessesories"
+        "lingerine"
+        "watch";
+        grid-gap: 23px;
+        padding: 0;
+        margin: 38px 17px 23px;
+    }
+
+    .bags{
+        color: var(--main-white);
+        text-transform: uppercase;
+        font-family: 'Lato', sans-serif;
+        font-size: 26px;
+        line-height: 31px;
+        letter-spacing: 0.04em;
+        grid-area: bags;
+        width: 341px;
+        height: 300px;
+        background-image: url("../media/bags.png");
+    }
+    
+    .shoes{
+        grid-area: shoes;
+        width: 341px;
+        height: 300px;
+        background-image: url("../media/shoes.png");
+    }
+    
+    .sunglasses{
+
+        width: 341px;
+        height: 300px;
+        background-image: url("../media/sunglasses.png");
+    }
+    
+    .accessories{
+        color: var(--main-white);
+        text-transform: uppercase;
+        font-family: 'Lato', sans-serif;
+        font-size: 26px;
+        line-height: 31px;
+        letter-spacing: 0.04em;
+        grid-area: accessesories;
+        width: 341px;
+        height: 300px;
+        background-image: url("../media/accessories.png");
+    }
+    
+    .lingerine{
+        color: var(--main-white);
+        text-transform: uppercase;
+        font-family: 'Lato', sans-serif;
+        font-size: 26px;
+        line-height: 31px;
+        letter-spacing: 0.04em;
+        grid-area: lingerine;
+        width: 341px;
+        height: 300px;
+        background-image: url("../media/lingerine.png");
+    }
+    
+    .watch{
+        color: var(--main-white);
+        text-transform: uppercase;
+        font-family: 'Lato', sans-serif;
+        font-size: 26px;
+        line-height: 31px;
+        letter-spacing: 0.04em;
+        grid-area: watch;
+        width: 341px;
+        height: 300px;
+        background-image: url("../media/watch.png");
+        margin-left: 1px;
+    }
+    
+
+
+}
+
+
+@media screen and (max-width: 375px) {
+    .footer{
+        width: 375px;
+        height: 340px;  
+        padding: 0;
+        margin: 0;
+    }
+
+    .inner_block__title_footer{
+        margin: 65px 21px 21px 20px;
+        padding: 66px 0px 0 0px;
+        text-align: center;
+    }
+    
+    .inner_block__text_footer_first{
+        margin: 0px 0px 0 85px;
+        padding: 0;
+        letter-spacing: 0.05em;
+    }
+    
+    .inner_block__text_footer_second{
+        margin: 20px 0 0px 67px;
+        padding: 0;
+    
+    }
+    
+    .lower_block__text_footer{
+        margin: 36px 0 0 75px;
+        padding: 0;
+    }
+
+}
+
+
+@media screen and (max-width: 375px) {
+    .header{
+        width: 375px;
+        padding-top: 28px;
+    }    
+    
+
+    .inner_block__title_header{
+        padding: 0;
+    }
+
+    .nav__menu{
+        position: relative;
+        right: 0;
+        top: -51px;
+        left: 323px;
+        bottom: 0;
+    }
+
+    .header__inner{
+        display: block;
+    }
+    
+    
+    .header__nav{
+        margin: 0;
+    }
+}

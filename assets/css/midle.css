@@ -1,0 +1,115 @@
+.categories{
+    display: grid;
+    grid-template-areas: 
+    "bags shoes shoes "
+    "sunglasses sunglasses accessesories   "
+    "lingerine watch accessesories   ";
+    grid-gap: 28px;
+    padding: 110px 206px 101px 231px;
+}
+
+.bags{
+    margin-left: 1px;
+    color: var(--main-white);
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.04em;
+    grid-area: bags;
+    width: 395px;
+    height: 306px;
+    background-image: url("../img/bags.png");
+}
+
+.shoes{
+    color: var(--main-white);
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.04em;
+    grid-area: shoes;
+    width: 580px;
+    height: 306px;
+    background-image: url("../img/shoes.png");
+}
+
+.sunglasses{
+    color: var(--main-white);
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.04em;
+    grid-area: sunglasses;
+    width: 535px;
+    height: 210px;
+    background-image: url("../img/sunglasses.png");
+}
+
+.accessories{
+    color: var(--main-white);
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.04em;
+    grid-area: accessesories;
+    width: 440px;
+    height: 538px;
+    background-image: url("../img/accessories.png");
+}
+
+.lingerine{
+    color: var(--main-white);
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.04em;
+    grid-area: lingerine;
+    width: 264px;
+    height: 300px;
+    background-image: url("../img/lingerine.png");
+}
+
+.watch{
+    color: var(--main-white);
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.04em;
+    grid-area: watch;
+    width: 243px;
+    height: 300px;
+    background-image: url("../img/watch.png");
+    margin-left: -131px;
+}
+
+.bags__text{
+    margin: 26px 0 0 42px;
+}
+
+.shoes__text{
+    margin: 26px 0 0 42px;
+}
+
+.sunglasses__text{
+    margin: 26px 0 0 42px;
+}
+
+.accessories__text{
+    margin: 26px 0 0 42px;
+}
+
+.lingerine__text{
+    margin: 26px 0 0 42px;
+}
+
+.watch__text{
+    margin: 25px 0 0 46px;
+}
+
+    

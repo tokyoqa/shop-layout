@@ -1,0 +1,8 @@
+:root{
+    --main-color: rgba(255, 255, 255, 0.9);
+    --main-white: rgba(255, 255, 255);
+    --main-black: rgba(0, 0, 0);
+    --main-gray: #44212140;
+    --ligth-gray: #919294;
+    --footer-gray: #E7E9ED;
+}
